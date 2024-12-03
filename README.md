@@ -36,7 +36,7 @@ os.environ["nnUNet_preprocessed"] = "/content/drive/MyDrive/<your_proect_name>/U
 os.environ["nnUNet_results"] = "/content/drive/MyDrive/<your_project_name>/nnUNet_rawnnUNet_results"
 ```
 
-You can always execute echo ${nnUNet_raw} etc to print the environment variables. This will return an empty string if they were not set.
+You can always execute `echo ${nnUNet_raw}` etc to print the environment variables. This will return an empty string if they were not set.
 
 ## Dataset
 
@@ -78,6 +78,9 @@ Our method achieves the following performance:
 | ---------------------- | :----: |
 | nnUNetTrainerMultitask | 62.69% |
 
+## Acknowledgement
+If you use this code or find it helpful, please also citing nnUNet:
+    Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.   
 
 
 
