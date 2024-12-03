@@ -9,6 +9,10 @@ Segmentation: Accurate delineation of anatomical structures.
 Classification: Predicting pathological subtypes alongside segmentation.
 Multi-task Learning: Joint optimization of segmentation and classification for better generalization.
 
+If you use this code or find it helpful, please also cite nnUNet:
+    Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring 
+    method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+
 
 ## Environments and Requirements
 
@@ -78,9 +82,6 @@ Our method achieves the following performance:
 | ---------------------- | :----: |
 | nnUNetTrainerMultitask | 62.69% |
 
-## Acknowledgement
-If you use this code or find it helpful, please also citing nnUNet:
-    Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.   
 
 
 
