@@ -10,8 +10,17 @@ Classification: Predicting pathological subtypes alongside segmentation.
 Multi-task Learning: Joint optimization of segmentation and classification for better generalization.
 
 If you use this code or find it helpful, please also cite nnUNet:
-    Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring 
-    method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+```bibtex
+@article{isensee2021nnu,
+  title={nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation},
+  author={Isensee, Fabian and Jaeger, Paul F and Kohl, Simon AA and Petersen, Jens and Maier-Hein, Klaus H},
+  journal={Nature Methods},
+  volume={18},
+  number={2},
+  pages={203--211},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
 
 
 ## Environments and Requirements
