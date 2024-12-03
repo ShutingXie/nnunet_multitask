@@ -1,6 +1,7 @@
 # Multi-Task nnUNet: Joint Segmentation and Classification for Medical Imaging
 This repository contains the official implementation of "Multi-Task nnUNet: Extending nnUNet for Joint Segmentation and Classification Tasks". This work builds upon the well-established nnUNet framework, introducing modifications to enable multi-task learning.
 
+
 ## Overview
 
 Our method integrates segmentation and classification tasks into a single architecture, effectively improving efficiency and accuracy in medical image analysis workflows. Below is a summary of the key features:
@@ -21,6 +22,7 @@ If you use this code or find it helpful, please also cite nnUNet:
   year={2021},
   publisher={Nature Publishing Group}
 }
+```
 
 
 ## Environments and Requirements
@@ -51,9 +53,11 @@ os.environ["nnUNet_results"] = "/content/drive/MyDrive/<your_project_name>/nnUNe
 
 You can always execute `echo ${nnUNet_raw}` etc to print the environment variables. This will return an empty string if they were not set.
 
+
 ## Dataset
 
 This project uses the nnUNet framework, which has specific requirements for dataset structure. For detailed instructions, please refer to the [nnUNet Dataset Format](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_format.md).
+
 
 ## Preprocessing
 
@@ -70,6 +74,7 @@ For more options, run:
 ```bash
 nnUNetv2_plan_and_preprocess -h
 ```
+
 
 ## Training
 
