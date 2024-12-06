@@ -94,12 +94,12 @@ Our method achieves the following segmentation performance:
 
 | Model name             |  DICE  |  Hausdorff Distance  |  ASSD  |
 | ---------------------- | :----: | :------------------: | :----: |
-| nnUNetTrainerMultitask | 70.17% |         24.95        | 0.4671 |
+| nnUNetTrainerMultitask | 67.31% |         23.72        | 0.7865 |
  
 Our method achieves the following classification performance:
 | Model name             |  Accuracy  |  Precision  |  Recall  |   F1   |
 | ---------------------- | :--------: | :---------: | :------: | :----: |
-| nnUNetTrainerMultitask |   0.3448   |   0.2414    | 0.3448   | 0.2759 |
+| nnUNetTrainerMultitask |   0.5690   |    0.4397   |  0.5690  | 0.4828 |
 
 
 
