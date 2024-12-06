@@ -90,12 +90,16 @@ TBA
 
 
 ## Results
-Our method achieves the following performance:
+Our method achieves the following segmentation performance:
 
-| Model name             |  DICE  |
-| ---------------------- | :----: |
-| nnUNetTrainerMultitask | 62.69% |
-
+| Model name             |  DICE  |  Hausdorff Distance  |  ASSD  |
+| ---------------------- | :----: | :------------------: | :----: |
+| nnUNetTrainerMultitask | 70.17% |         24.95        | 0.4671 |
+ 
+Our method achieves the following classification performance:
+| Model name             |  Accuracy  |  Precision  |  Recall  |   F1   |
+| ---------------------- | :--------: | :---------: | :------: | :----: |
+| nnUNetTrainerMultitask |   0.3448   |   0.2414    | 0.3448   | 0.2759 |
 
 
 
